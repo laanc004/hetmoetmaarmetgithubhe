@@ -3,7 +3,10 @@
   "version": "3.5.2",
   "main": "app.js",
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node src/app.js",
+    "test": "npm run mocha & npm run eslint",
+    "mocha":"./node_modules/mocha/bin/mocha",
+        "eslint":"./node_modules/eslint/bin/eslint.js -c ./.eslintrc.js ./test/*.js  ./src/*.js"
   },
   "devDependencies": {
     "eslint": "^5.13.0",
