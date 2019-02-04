@@ -3,7 +3,7 @@
 ## hetmoetmaarmetgithubhe
 
 ### TravisCI
-[![Build Status](https://travis-ci.org/boennemann/badges.svg?branch=master)](https://travis-ci.org/boennemann/badges)
+[![Build Status](https://travis-ci.com/laanc004/hetmoetmaarmetgithubhe.svg?branch=master)](https://travis-ci.com/laanc004/hetmoetmaarmetgithubhe)
 
 This stuff was mandatory so here it is.
 
