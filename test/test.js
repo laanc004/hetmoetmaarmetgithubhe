@@ -1,10 +1,10 @@
 (() => {
   'use strict';
   const assert = require('assert');
-  const myHello = require('../app/foo');
+  const myHello = require('../src/app');
   describe('Test', function() {
-    it('should say hello before something', function() {
-      assert.equal(myHello.hello('test'), 'hello test');
+    it('should pass', function() {
+      assert.equal(myHello.dispatch.start(), 'Done');
     });
   });
 })();

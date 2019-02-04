@@ -9,7 +9,6 @@ module.exports = {
     "node": true,
     "jquery" : true,
     "browser": true,
-    "mocha": true
   },
   "globals": {
     "Promise": true
