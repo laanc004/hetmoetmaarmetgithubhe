@@ -4,7 +4,7 @@
   const myHello = require('../src/app');
   describe('Test', function() {
     it('should pass', function() {
-      assert.equal(myHello.dispatch.start(), 'Done');
+      assert.equal(myHello.dispatch.start(), '');
     });
   });
 })();
