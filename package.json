@@ -4,6 +4,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node src/app.js",
-    "test": "nyc mocha"
+    "test": "nyc mocha",
+    "nyc":"./node_modulesnyc/bin/nyc",
+    "mocha":"./node_modules/mocha/bin/mocha"
   }
 }
