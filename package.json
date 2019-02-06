@@ -7,5 +7,13 @@
     "test": "nyc mocha",
     "nyc":"./node_modulesnyc/bin/nyc",
     "mocha":"./node_modules/mocha/bin/mocha"
+  },
+  "nyc": {
+    "exclude": [
+      "node_modules",
+      "bin",
+      "coverage",
+      "test/test/test.js"
+    ]
   }
 }
