@@ -1,0 +1,22 @@
+{
+  "name": "codecov-example-node",
+  "version": "0.0.1",
+  "description": "Codecov Example Node",
+  "main": "script.js",
+  "scripts": {
+    "test": "istanbul cover node_modules/mocha/bin/_mocha && codecov -F istanbul_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codecov/example-node.git"
+  },
+  "author": "Codecov <hello@codecov.io>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^5.2.0",
+    "istanbul": "^0.4.5",
+    "codecov": "^3.1.0"
+  }
+}
