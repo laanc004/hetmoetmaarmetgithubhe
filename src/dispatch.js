@@ -67,6 +67,7 @@ class Dispatch {
 			//Go through the driving/charging sequence for the busses
 			this.move(step)
 		}
+
 	}
 
 	dispatch() {

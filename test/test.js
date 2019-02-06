@@ -1,10 +1,10 @@
 (() => {
   'use strict';
-  const assert = require('assert');
+  const expect = require('chai').expect
   const myHello = require('../src/app');
   describe('Test', function() {
-    it('should pass', function() {
-      assert.equal(myHello.dispatch.start(), "Done");
+    it('should output Done after everything', function() {
+      expect('myHello').to.equal('Done');
     });
   });
 })();
