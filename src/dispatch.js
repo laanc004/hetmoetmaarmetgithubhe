@@ -24,7 +24,7 @@ class Dispatch {
 		//end the program
 		if (step === 600){ 
 			console.log(`Done`)
-			return;
+			return "Done";
 		}
 
 		//dispatch a new bus every 15 minutes
@@ -54,6 +54,7 @@ class Dispatch {
 	}
 
 	start() {
+
 		// simulate evolution of time:
 		for (let step = 0; step <= 10 * 60; step += this.stepTime) {
 
@@ -66,6 +67,7 @@ class Dispatch {
 			//Go through the driving/charging sequence for the busses
 			this.move(step)
 		}
+
 	}
 
 	dispatch() {
