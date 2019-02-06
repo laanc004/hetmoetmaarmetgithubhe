@@ -4,10 +4,5 @@
   "main": "app.js",
   "scripts": {
     "start": "node src/app.js",
-  },
-  "devDependencies": {
-    "eslint": "^5.13.0",
-    "eslint-config-strongloop": "^2.1.0",
-    "eslint-plugin-security": "^1.4.0"
   }
 }
