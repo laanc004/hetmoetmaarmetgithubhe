@@ -4,5 +4,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node src/app.js"
+  },
+  "devDependencies": {
+    "codecov": "^3.2.0"
   }
 }
