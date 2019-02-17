@@ -8,5 +8,8 @@
   },
   "devDependencies": {
     "codecov": "^3.2.0"
+  },
+  "dependencies": {
+    "istanbul": "^0.4.5"
   }
 }
