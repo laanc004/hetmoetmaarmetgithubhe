@@ -7,7 +7,8 @@
     "test": "istanbul cover node_modules/mocha/bin/_mocha && codecov -F istanbul_mocha"
   },
   "devDependencies": {
-    "codecov": "^3.2.0"
+    "codecov": "^3.2.0",
+    "nyc": "^13.3.0"
   },
   "dependencies": {
     "istanbul": "^0.4.5",
