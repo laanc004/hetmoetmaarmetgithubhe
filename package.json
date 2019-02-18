@@ -4,7 +4,8 @@
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",
-    "test": "nyc mocha src/app.js"
+    "test": "nyc mocha src/app.js",
+    "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
   },
   "devDependencies": {
     "mocha": "^5.2.0",
