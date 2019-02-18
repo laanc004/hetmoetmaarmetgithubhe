@@ -3,7 +3,6 @@
   "version": "3.5.2",
   "main": "src/app.js",
   "scripts": {
-    "test": "nyc mocha src/app.js",
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
   },
   "devDependencies": {
