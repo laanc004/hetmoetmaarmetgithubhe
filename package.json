@@ -9,6 +9,5 @@
   "devDependencies": {
     "mocha": "^5.2.0",
     "nyc": "^13.3.0"
-  },
-  "dependencies": {}
+  }
 }
