@@ -1,6 +1,5 @@
 sudo: required
 language: node_js
-script:
-  - npm test
 node_js:
-  - "node"
+  - iojs
+after_success: 'npm run coveralls'

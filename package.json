@@ -3,11 +3,12 @@
   "version": "3.5.2",
   "main": "src/app.js",
   "scripts": {
-    "start": "node src/app.js",
-    "test": "nyc mocha src/app.js",
-    "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
+    "test": "./node_modules/istanbul/lib/cli.js cover ./node_modules/.bin/_mocha",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
   },
   "devDependencies": {
+    "coveralls": "^3.0.2",
+    "istanbul": "^0.4.5",
     "mocha": "^5.2.0",
     "nyc": "^13.3.0"
   }
